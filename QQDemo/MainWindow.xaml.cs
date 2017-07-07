@@ -29,5 +29,10 @@ namespace QQDemo
         {
            DataGrid.ItemsSource= QqInfoProvide.GetCurrentInfo();
         }
+
+        private void Button1_OnClick(object sender, RoutedEventArgs e)
+        {
+           QqInfoProvide.SendMessage("test");
+        }
     }
 }

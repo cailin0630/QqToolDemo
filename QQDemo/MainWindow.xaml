@@ -18,5 +18,9 @@
                   Margin="10">
             
         </DataGrid>
+        <Button Name="Button1"
+                Click="Button1_OnClick"
+                Content="发送消息"
+                Margin="10"></Button>
     </StackPanel>
 </Window>
