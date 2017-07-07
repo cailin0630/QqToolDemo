@@ -1,0 +1,22 @@
+﻿<Window x:Class="QQDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QQDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel Margin="10">
+        
+        <Button Name="Button" 
+                Click="Button_OnClick" 
+                Content="获取当前qq聊天窗口"
+                Margin="10">
+            
+        </Button>
+        <DataGrid Name="DataGrid"
+                  Margin="10">
+            
+        </DataGrid>
+    </StackPanel>
+</Window>
